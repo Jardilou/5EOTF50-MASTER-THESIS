@@ -1,0 +1,21 @@
+# Ignore YOLO weights
+*.pt
+*.onnx
+
+# Ignore the entire ultralytics library if it's too huge
+ultralytics/
+
+# Ignore datasets and images
+datasets/
+images/
+labels/
+DATASETS/
+# Ignore training outputs/videos
+runs/
+*.mp4
+*.avi
+
+# Ignore Python environments
+venv/
+.env/
+__pycache__/

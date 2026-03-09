@@ -1,0 +1,10 @@
+
+train: C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/dataset2/dataset2/train-test/images/train      # Folder with TRAINING images (use the 'left' images you just split)
+val: C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/dataset2/dataset2/train-test/images/val           # Folder with VALIDATION images
+
+# Keypoints: The paper uses 4 points for the Bézier curve
+kpt_shape: [4, 3]       # [Number of points, Dimensions (x,y)]
+flip_idx: [0, 1, 2, 3]  # No flipping needed for simple curve regression
+
+names:
+  0: fish
