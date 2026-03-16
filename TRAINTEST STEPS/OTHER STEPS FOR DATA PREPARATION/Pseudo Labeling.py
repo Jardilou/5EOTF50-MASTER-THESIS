@@ -153,10 +153,10 @@ def main():
     copied_files = [f for f in os.listdir(CURATED_IMAGES_FOLDER) if f.lower().endswith(valid_extensions)]
     
     if len(copied_files) == 0:
-        print("❌ ERROR: The curated folder is empty! Try lowering the conf_threshold even more.")
+        print("ERROR: The curated folder is empty! Try lowering the conf_threshold even more.")
         return # Stops the script gracefully before YOLO crashes
     
-    print(f"✅ Found {len(copied_files)} images in the curated folder. Moving to Step 2...")
+    print(f"Found {len(copied_files)} images in the curated folder. Moving to Step 2...")
 
     # --- Run Step 2: Annotate ---
     generate_pseudo_labels(
