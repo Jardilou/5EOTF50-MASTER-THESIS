@@ -1,6 +1,13 @@
+train: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DeepFish\First_batch_Train_Test\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\Bézierfusion Dataset 2 Reannotated V4\Train Test\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\BézierFusion Dataset 1\CORRECT IMAGES\train test split\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DeepFish\Empty_training_dataset
+val: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DeepFish\First_batch_Train_Test\images\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\Bézierfusion Dataset 2 Reannotated V4\Train Test\images\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\BézierFusion Dataset 1\CORRECT IMAGES\train test split\images\val
 
-train: C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/dataset2/dataset2/train-test/images/train      # Folder with TRAINING images (use the 'left' images you just split)
-val: C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/dataset2/dataset2/train-test/images/val           # Folder with VALIDATION images
 
 # Keypoints: The paper uses 4 points for the Bézier curve
 kpt_shape: [4, 3]       # [Number of points, Dimensions (x,y)]

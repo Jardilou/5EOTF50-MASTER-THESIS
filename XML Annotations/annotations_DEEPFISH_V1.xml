@@ -1,0 +1,3498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>3719668</id>
+      <size>310</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-03-11 08:40:29.079909+00:00</created>
+      <updated>2026-03-12 15:31:44.625871+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>309</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>3718982</id>
+          <start>0</start>
+          <stop>309</stop>
+          <url>https://app.cvat.ai/api/jobs/3719668/dataset/export/api/jobs/3719668</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>jardinet_rap</username>
+        <email>jardinet_rap@utp.edu.my</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>fish-curve</name>
+          <color>#cc3aa2</color>
+          <type>skeleton</type>
+          <attributes>
+          </attributes>
+          <svg>&lt;line x1="67.7928695678711" y1="50.47821044921875" x2="76.28182983398438" y2="52.34578323364258" data-type="edge" data-node-from="5" data-node-to="6"&gt;&lt;/line&gt;
+&lt;line x1="58.45500564575195" y1="49.9688720703125" x2="67.7928695678711" y2="50.47821044921875" data-type="edge" data-node-from="4" data-node-to="5"&gt;&lt;/line&gt;
+&lt;line x1="49.456703186035156" y1="50.64799118041992" x2="58.45500564575195" y2="49.9688720703125" data-type="edge" data-node-from="1" data-node-to="4"&gt;&lt;/line&gt;
+&lt;circle r="0.75" cx="49.456703186035156" cy="50.64799118041992" data-type="element node" data-element-id="1" data-node-id="1" data-label-name="Head"&gt;&lt;/circle&gt;
+&lt;circle r="0.75" cx="58.45500564575195" cy="49.9688720703125" data-type="element node" data-element-id="4" data-node-id="4" data-label-name="Mid1"&gt;&lt;/circle&gt;
+&lt;circle r="0.75" cx="67.7928695678711" cy="50.47821044921875" data-type="element node" data-element-id="5" data-node-id="5" data-label-name="Mid2"&gt;&lt;/circle&gt;
+&lt;circle r="0.75" cx="76.28182983398438" cy="52.34578323364258" data-type="element node" data-element-id="6" data-node-id="6" data-label-name="Tail"&gt;&lt;/circle&gt;</svg>
+        </label>
+        <label>
+          <name>Head</name>
+          <color>#fa3253</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+          <parent>fish-curve</parent>
+        </label>
+        <label>
+          <name>Mid1</name>
+          <color>#f8cf52</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+          <parent>fish-curve</parent>
+        </label>
+        <label>
+          <name>Mid2</name>
+          <color>#24b353</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+          <parent>fish-curve</parent>
+        </label>
+        <label>
+          <name>Tail</name>
+          <color>#2a7dd1</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+          <parent>fish-curve</parent>
+        </label>
+        <label>
+          <name>fish-box</name>
+          <color>#4d589a</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-03-12 15:32:05.564305+00:00</dumped>
+  </meta>
+  <image id="0" name="7117_Chaetodon_vagabundus_3_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1043.34,834.11">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1080.40,841.04">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1116.33,854.06">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1153.25,874.99">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1028.39" ytl="779.12" xbr="1193.27" ybr="920.96" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="7117_Chaetodon_vagabundus_3_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="971.39,805.97">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1007.91,808.52">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1040.84,815.42">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1080.30,822.17">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="953.93" ytl="740.12" xbr="1118.81" ybr="881.95" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="7117_Chaetodon_vagabundus_3_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="890.62,791.53">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="931.86,791.65">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="973.40,795.55">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1013.14,798.36">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="871.40" ytl="718.75" xbr="1049.55" ybr="860.58" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="7117_Chaetodon_vagabundus_3_f000060.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="755.83,777.59">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="794.99,770.02">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="831.95,765.41">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="870.00,761.87">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="738.94" ytl="691.05" xbr="908.09" ybr="832.88" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="7117_Chaetodon_vagabundus_3_f000070.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="692.74,800.92">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="730.14,781.12">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="765.81,764.22">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="804.06,751.62">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="673.65" ytl="695.99" xbr="842.81" ybr="837.82" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="7117_Lutjanus_argentimaculatus_adult_2_f000080.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="437.33,891.19">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="589.49,891.98">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="733.57,882.04">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="849.38,864.92">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="383.80" ytl="771.90" xbr="881.50" ybr="965.64" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="7117_Lutjanus_argentimaculatus_adult_2_f000090.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="353.28,870.19">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="518.20,879.77">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="663.45,884.41">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="811.72,886.92">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="327.36" ytl="758.77" xbr="911.80" ybr="958.87" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="7117_Lutjanus_argentimaculatus_adult_2_f000100.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="279.71,858.56">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="416.98,871.26">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="572.79,877.50">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="708.14,871.22">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="239.70" ytl="764.90" xbr="865.83" ybr="965.00" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="7398_F1_f000160.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="992.25,678.60">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1035.07,679.59">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1078.04,686.62">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1112.19,698.14">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="978.23" ytl="623.07" xbr="1179.60" ybr="764.70" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="7398_F2_f000000.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1046.28,671.21">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="846.96,636.43">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="616.55,646.37">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="439.13,682.62">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="238.90" ytl="536.40" xbr="1066.20" ybr="799.90" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="7398_F2_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1478.70,714.24">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1288.21,652.86">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1068.03,639.54">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="886.21,638.62">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="687.84" ytl="524.14" xbr="1490.64" ybr="841.30" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="7398_F2_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1772.03,777.06">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1616.58,715.68">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1436.89,702.36">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1288.51,701.44">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1042.05" ytl="578.04" xbr="1792.70" ybr="910.60" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="7398_F2_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1915.07,814.33">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1776.82,776.35">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1622.31,759.59">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1467.07,758.67">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1168.37" ytl="580.79" xbr="1919.02" ybr="913.35" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="7398_F6_f000060.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="771.61,427.14">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="522.39,383.00">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="320.29,331.65">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="127.45,281.25">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="0.00" ytl="135.40" xbr="784.00" ybr="475.20" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="7398_F6_f000070.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="862.03,432.40">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="618.30,399.97">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="420.66,362.23">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="232.07,325.20">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="51.30" ytl="172.30" xbr="888.62" ybr="508.00" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="7398_F6_f000080.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="898.37,401.84">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="654.04,388.19">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="454.82,374.47">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="261.63,348.11">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="115.70" ytl="202.90" xbr="925.39" ybr="514.13" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="7398_F6_f000090.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="953.33,380.56">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="712.55,377.55">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="513.33,372.70">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="320.13,362.29">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="158.25" ytl="220.63" xbr="967.94" ybr="531.86" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="7398_F6_f000100.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="978.30,372.54">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="746.61,387.62">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="516.98,389.58">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="325.25,380.50">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="158.25" ytl="220.63" xbr="1005.20" ybr="515.90" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="7398_F6_f000110.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1040.26,335.70">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="787.24,365.78">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="538.25,380.32">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="341.27,397.66">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="223.84" ytl="234.81" xbr="1070.80" ybr="530.08" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="7398_F6_f000120.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1106.53,331.63">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="844.88,356.54">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="585.70,384.23">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="369.00,419.46">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="150.80" ytl="270.27" xbr="1116.89" ybr="565.54" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="7398_F6_f000130.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1226.31,309.47">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="954.51,339.90">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="685.28,373.74">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="460.18,416.77">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="245.12" ytl="256.09" xbr="1246.30" ybr="572.60" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="7398_F6_f000140.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1365.91,300.50">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1067.83,336.01">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="772.56,375.49">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="525.69,425.71">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="294.34" ytl="237.63" xbr="1373.48" ybr="589.00" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="7398_F6_f000150.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1510.39,296.14">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1193.99,328.71">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="885.83,370.82">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="628.17,424.37">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="349.30" ytl="232.13" xbr="1527.26" ybr="608.20" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="7398_F6_f000160.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1628.09,228.58">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1319.20,285.93">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1016.70,351.65">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="751.96,412.51">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="492.28" ytl="194.01" xbr="1670.24" ybr="570.07" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="7398_F6_f000170.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1758.83,138.86">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1453.14,224.79">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1153.79,323.25">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="891.79,414.44">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="592.00" ytl="103.82" xbr="1774.67" ybr="610.40" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="7398_F6_f000180.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1904.69,48.79">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1607.10,154.46">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1314.00,264.76">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1057.48,366.90">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="736.78" ytl="18.38" xbr="1919.44" ybr="612.80" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="7482_F2_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1513.70,568.73">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1566.43,563.53">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1617.33,557.67">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1656.90,549.11">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1499.40" ytl="495.00" xbr="1712.90" ybr="609.60" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="7482_F2_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1514.69,568.91">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1568.22,568.88">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1616.83,561.88">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1657.89,548.64">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1500.45" ytl="491.92" xbr="1719.27" ybr="613.40" z_order="0">
+    </box>
+  </image>
+  <image id="46" name="7482_F2_f000060.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1515.68,569.08">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1569.69,568.35">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1620.59,562.49">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1658.88,548.18">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1505.17" ytl="487.46" xbr="1708.50" ybr="615.81" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="7482_F2_f000080.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1749.08,643.07">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1693.52,618.56">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1632.73,601.18">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1568.03,586.67">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1525.73" ytl="530.48" xbr="1755.20" ybr="665.70" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="7482_F2_f000090.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1779.75,656.92">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1722.20,642.31">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1663.39,624.92">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1598.69,600.52">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1559.36" ytl="557.19" xbr="1788.83" ybr="692.41" z_order="0">
+    </box>
+  </image>
+  <image id="51" name="7482_F2_f000120.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1477.04,559.41">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1531.13,567.45">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1586.63,577.90">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1648.18,594.17">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1470.33" ytl="517.62" xbr="1712.70" ybr="639.90" z_order="0">
+    </box>
+  </image>
+  <image id="52" name="7482_F2_f000130.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1300.09,517.21">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1353.15,518.53">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1410.28,524.00">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1473.24,533.20">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1290.29" ytl="475.10" xbr="1508.90" ybr="572.70" z_order="0">
+    </box>
+  </image>
+  <image id="53" name="7482_F2_f000140.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1129.02,536.27">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1180.03,521.58">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1236.16,509.62">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1300.40,502.32">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1120.78" ytl="469.80" xbr="1339.39" ybr="567.40" z_order="0">
+    </box>
+  </image>
+  <image id="54" name="7482_F2_f000150.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="0.00" ytl="655.75" xbr="474.10" ybr="1080.00" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="443.73,1019.54">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="30.98,835.98">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="160.57,900.67">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="291.13,970.85">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1027.44,558.93">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1075.96,543.63">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1127.67,532.22">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1174.45,518.96">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1015.47" ytl="477.10" xbr="1235.10" ybr="588.61" z_order="0">
+    </box>
+  </image>
+  <image id="55" name="7482_F2_f000160.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="0.00" ytl="617.76" xbr="450.91" ybr="1009.37" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Tail" source="manual" outside="0" occluded="0" points="75.90,808.95">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="326.62,865.30">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="437.84,919.48">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="207.32,820.60">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1023.97,568.93">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1069.99,553.02">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1117.30,542.16">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1161.80,529.54">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1001.93" ytl="486.90" xbr="1220.55" ybr="584.50" z_order="0">
+    </box>
+  </image>
+  <image id="56" name="7482_F2_f000170.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="451.49,880.79">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="354.67,832.61">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="220.47,783.60">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="75.80,775.23">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="0.00" ytl="630.75" xbr="478.56" ybr="973.90" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1023.36,567.13">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1065.39,556.72">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1111.81,544.72">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1155.03,531.33">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="999.89" ytl="490.86" xbr="1209.69" ybr="588.46" z_order="0">
+    </box>
+  </image>
+  <image id="57" name="7482_F2_f000180.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1.63" ytl="607.08" xbr="476.31" ybr="977.33" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="230.82,798.33">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="462.42,905.70">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="348.66,847.29">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="105.30,767.91">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1022.75,565.33">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1060.79,560.43">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1106.31,547.27">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1148.26,533.12">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="997.85" ytl="494.82" xbr="1198.84" ybr="592.42" z_order="0">
+    </box>
+  </image>
+  <image id="58" name="7482_F2_f000190.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Tail" source="manual" outside="0" occluded="0" points="225.64,752.60">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="487.11,911.33">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="408.02,823.47">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="324.38,776.71">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="69.95" ytl="595.08" xbr="519.18" ybr="980.72" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1022.15,563.53">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1056.20,564.13">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1100.82,549.82">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1141.49,534.91">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="995.80" ytl="498.78" xbr="1187.99" ybr="596.38" z_order="0">
+    </box>
+  </image>
+  <image id="59" name="7482_F2_f000200.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="503.43,767.51">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="426.11,747.11">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="291.15,744.93">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="359.60,735.46">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="151.86" ytl="603.05" xbr="609.93" ybr="909.21" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1012.89,579.49">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1051.60,567.83">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1095.33,552.38">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1134.72,536.70">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="993.76" ytl="502.74" xbr="1177.14" ybr="600.34" z_order="0">
+    </box>
+  </image>
+  <image id="60" name="7482_F2_f000210.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="620.82,719.12">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="518.07,719.03">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="415.74,729.11">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="316.65,746.87">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="229.95" ytl="570.46" xbr="640.20" ybr="892.51" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1003.62,595.46">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1047.00,571.54">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1089.84,554.93">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1127.95,538.48">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="991.72" ytl="506.70" xbr="1166.28" ybr="604.30" z_order="0">
+    </box>
+  </image>
+  <image id="61" name="7482_F2_f000220.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Tail" source="manual" outside="0" occluded="0" points="330.73,734.11">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="484.77,715.47">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="638.18,714.32">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="796.21,737.66">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="237.51" ytl="544.70" xbr="828.10" ybr="895.30" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="978.01,626.77">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1020.63,599.25">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1064.40,576.47">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1104.11,558.13">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="953.87" ytl="518.80" xbr="1142.20" ybr="642.00" z_order="0">
+    </box>
+  </image>
+  <image id="62" name="7482_F2_f000230.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="246.36" ytl="553.44" xbr="976.61" ybr="885.54" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="952.28,708.35">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="776.28,711.79">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="588.22,727.73">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="440.26,740.83">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="976.74,627.15">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1021.77,604.05">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1066.71,584.14">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1107.56,567.63">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="952.18" ytl="525.44" xbr="1144.63" ybr="641.64" z_order="0">
+    </box>
+  </image>
+  <image id="64" name="7482_F2_f000290.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1153.42" ytl="480.08" xbr="1771.29" ybr="1048.52" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1726.20,1027.15">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1628.95,903.67">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1360.69,669.19">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1507.92,781.53">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="974.20,627.91">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1024.06,613.64">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1071.31,599.47">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1114.45,586.62">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="948.80" ytl="538.73" xbr="1149.48" ybr="640.93" z_order="0">
+    </box>
+  </image>
+  <image id="66" name="7482_F2_f000310.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1526.60,761.55">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="1890.46,1041.57">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1809.46,956.49">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1677.09,857.42">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1310.50" ytl="514.68" xbr="1917.38" ybr="1072.14" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="906.87,607.94">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="961.55,602.50">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1015.04,601.89">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1062.42,603.46">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="893.59" ytl="557.20" xbr="1102.50" ybr="645.40" z_order="0">
+    </box>
+  </image>
+  <image id="69" name="7482_F2_f000340.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1681.30,833.21">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1584.61,843.72">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="1876.97,847.98">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1766.44,835.96">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1423.75" ytl="664.42" xbr="1920.00" ybr="1003.04" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="434.88,586.59">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="488.83,584.10">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="542.31,584.24">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="589.69,586.54">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="423.09" ytl="541.74" xbr="632.00" ybr="629.94" z_order="0">
+    </box>
+  </image>
+  <image id="70" name="7482_F2_f000410.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1833.21,382.13">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1663.86,653.14">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1674.37,560.48">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1725.83,454.11">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1589.67" ytl="293.32" xbr="1881.59" ybr="808.34" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="360.02,656.87">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="411.58,637.51">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="463.40,621.17">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="509.90,609.12">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="347.90" ytl="570.40" xbr="556.81" ybr="677.42" z_order="0">
+    </box>
+  </image>
+  <image id="71" name="7482_F2_f000420.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1902.58,321.24">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1841.30,425.88">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1763.72,520.01">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1677.02,588.86">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1613.40" ytl="245.85" xbr="1919.57" ybr="753.76" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="330.30,642.89">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="383.63,628.87">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="437.38,618.09">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="484.68,611.35">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="318.83" ytl="564.47" xbr="541.49" ybr="671.49" z_order="0">
+    </box>
+  </image>
+  <image id="74" name="7482_F2_f000510.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1314.32,770.05">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1539.66,716.33">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1669.78,624.66">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1786.28,527.07">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1279.88" ytl="372.44" xbr="1829.55" ybr="855.39" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="241.17,600.92">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="299.80,602.96">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="359.35,608.84">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="409.05,618.04">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="231.61" ytl="546.67" xbr="495.50" ybr="653.69" z_order="0">
+    </box>
+  </image>
+  <image id="75" name="7482_F2_f000520.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1255.85" ytl="420.21" xbr="1892.94" ybr="980.42" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1294.90,940.30">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1440.35,796.22">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1763.67,588.37">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1607.15,671.02">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="203.39,582.61">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="262.03,584.64">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="321.58,590.52">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="371.28,599.73">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="191.55" ytl="538.66" xbr="455.44" ybr="645.68" z_order="0">
+    </box>
+  </image>
+  <image id="76" name="7482_F2_f000530.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1337.61" ytl="402.73" xbr="1916.72" ybr="1062.54" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1394.50,1031.90">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1495.18,864.86">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1612.96,709.29">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1735.43,588.43">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="203.44,581.10">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="262.23,582.97">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="321.92,588.41">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="371.75,596.92">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="191.55" ytl="538.66" xbr="442.87" ybr="645.68" z_order="0">
+    </box>
+  </image>
+  <image id="77" name="7482_F2_f000540.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1369.74" ytl="365.64" xbr="1915.90" ybr="1080.00" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1748.80,608.57">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="1421.92,1076.02">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1512.25,918.87">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1638.97,754.70">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="202.22,582.17">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="260.99,583.87">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="319.37,587.50">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="368.07,592.84">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="191.55" ytl="538.66" xbr="430.30" ybr="645.68" z_order="0">
+    </box>
+  </image>
+  <image id="79" name="7482_F2_f000560.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1323.41" ytl="487.45" xbr="1917.56" ybr="1075.26" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1655.55,784.09">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1805.00,704.65">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="1354.84,1027.08">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1491.58,894.06">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="199.77,584.32">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="258.51,585.65">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="314.27,585.68">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="360.70,584.68">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="191.55" ytl="538.66" xbr="416.90" ybr="629.69" z_order="0">
+    </box>
+  </image>
+  <image id="80" name="7482_F2_f000570.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1378.67" ytl="502.36" xbr="1918.15" ybr="1017.23" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1415.94,960.62">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1544.76,842.96">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1849.26,691.84">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1694.51,747.59">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="198.55,585.39">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="257.28,586.55">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="311.72,584.77">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="357.02,580.61">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="191.55" ytl="538.66" xbr="388.40" ybr="621.70" z_order="0">
+    </box>
+  </image>
+  <image id="81" name="7482_F2_f000580.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1475.64,984.36">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1614.59,861.91">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1735.24,765.14">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1860.86,696.96">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1449.30" ytl="503.60" xbr="1918.90" ybr="1019.70" z_order="0">
+    </box>
+  </image>
+  <image id="82" name="7482_F2_f000590.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1526.97,928.36">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1660.30,844.82">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1776.07,778.81">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1896.61,732.30">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1464.40" ytl="512.53" xbr="1900.93" ybr="951.30" z_order="0">
+    </box>
+  </image>
+  <image id="84" name="7482_F2_f000670.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1512.92,609.24">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1603.94,636.96">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1680.24,664.66">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1750.35,705.87">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1494.60" ytl="530.40" xbr="1865.00" ybr="814.50" z_order="0">
+    </box>
+  </image>
+  <image id="85" name="7482_F2_f000680.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1436.63,622.09">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1538.51,629.89">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1624.93,640.85">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1708.50,661.56">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1430.50" ytl="521.24" xbr="1800.90" ybr="805.34" z_order="0">
+    </box>
+  </image>
+  <image id="86" name="7482_F3_f000000.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1550.13,619.73">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1444.41,632.40">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1354.52,659.15">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1268.50,693.05">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1109.20" ytl="544.23" xbr="1564.90" ybr="776.80" z_order="0">
+    </box>
+  </image>
+  <image id="87" name="7482_F3_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1491.99,615.46">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1412.78,641.81">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1340.85,662.57">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1277.05,687.92">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1144.80" ytl="544.23" xbr="1510.20" ybr="745.60" z_order="0">
+    </box>
+  </image>
+  <image id="88" name="7482_F3_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1500.95,659.58">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1437.23,651.82">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1373.71,651.22">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1318.49,653.47">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1228.62" ytl="551.00" xbr="1513.62" ybr="746.46" z_order="0">
+    </box>
+  </image>
+  <image id="89" name="7482_F3_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1124.56,486.44">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1236.24,514.26">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1336.38,547.71">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1403.49,581.78">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1111.87" ytl="399.92" xbr="1460.99" ybr="661.71" z_order="0">
+    </box>
+  </image>
+  <image id="90" name="7482_F3_f000060.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1003.35,464.55">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1139.37,471.99">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1256.86,495.23">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1355.17,532.12">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="986.06" ytl="364.16" xbr="1479.50" ybr="628.60" z_order="0">
+    </box>
+  </image>
+  <image id="91" name="7482_F3_f000070.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="922.09,426.31">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1068.20,434.92">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1194.41,461.80">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1300.02,504.47">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="900.26" ytl="335.05" xbr="1430.50" ybr="599.49" z_order="0">
+    </box>
+  </image>
+  <image id="92" name="7482_F3_f000080.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="856.51,395.68">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1007.23,405.93">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1137.43,437.92">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1246.37,488.70">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="839.84" ytl="303.70" xbr="1399.20" ybr="598.60" z_order="0">
+    </box>
+  </image>
+  <image id="93" name="7482_F3_f000090.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="775.24,372.79">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="925.97,383.04">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1056.16,415.03">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1165.10,465.81">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="760.87" ytl="281.95" xbr="1320.22" ybr="576.85" z_order="0">
+    </box>
+  </image>
+  <image id="94" name="7482_F3_f000100.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="714.20,348.63">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="863.98,366.01">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="992.04,400.93">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1101.62,446.30">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="699.95" ytl="258.12" xbr="1254.70" ybr="553.02" z_order="0">
+    </box>
+  </image>
+  <image id="95" name="7482_F3_f000110.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="608.32,295.79">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="758.56,320.20">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="887.02,369.22">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="996.94,432.92">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="588.70" ytl="213.10" xbr="1150.08" ybr="533.15" z_order="0">
+    </box>
+  </image>
+  <image id="96" name="7482_F3_f000120.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="535.41,248.15">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="679.65,275.86">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="802.97,331.54">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="908.50,403.89">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="508.58" ytl="189.06" xbr="1069.96" ybr="509.11" z_order="0">
+    </box>
+  </image>
+  <image id="97" name="7482_F3_f000130.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="454.62,202.64">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="593.13,232.68">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="711.55,293.02">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="812.89,371.42">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="438.84" ytl="139.83" xbr="1000.22" ybr="476.30" z_order="0">
+    </box>
+  </image>
+  <image id="98" name="7482_F3_f000140.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="390.72,177.71">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="527.11,204.20">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="643.72,257.42">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="743.51,326.56">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="375.25" ytl="115.22" xbr="873.00" ybr="443.50" z_order="0">
+    </box>
+  </image>
+  <image id="99" name="7482_F3_f000150.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="303.83,160.52">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="435.24,183.26">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="547.59,228.95">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="643.73,288.30">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="284.99" ytl="78.29" xbr="782.74" ybr="406.58" z_order="0">
+    </box>
+  </image>
+  <image id="100" name="7482_F3_f000160.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="192.16,114.82">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="322.83,137.56">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="438.87,181.77">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="535.01,241.12">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="182.43" ytl="43.42" xbr="680.18" ybr="371.71" z_order="0">
+    </box>
+  </image>
+  <image id="101" name="7482_F3_f000170.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="118.42,77.93">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="253.38,104.27">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="373.24,155.48">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="472.54,224.23">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="108.58" ytl="16.76" xbr="621.20" ybr="345.04" z_order="0">
+    </box>
+  </image>
+  <image id="102" name="7482_F3_f000180.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="53.47,54.55">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="190.38,80.25">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="311.97,130.21">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="412.71,197.29">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="40.98" ytl="1.37" xbr="567.86" ybr="304.90" z_order="0">
+    </box>
+  </image>
+  <image id="103" name="7482_F3_f000190.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="9.97,45.39">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="146.89,71.09">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="268.48,121.05">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="369.22,188.13">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="2.85" ytl="0.00" xbr="513.30" ybr="285.30" z_order="0">
+    </box>
+  </image>
+  <image id="105" name="7585_F3_f000000.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1343.32,451.77">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1451.69,488.78">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1541.46,535.55">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1618.68,610.69">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1321.44" ytl="403.52" xbr="1675.60" ybr="688.82" z_order="0">
+    </box>
+  </image>
+  <image id="106" name="7585_F3_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1335.83,490.08">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1455.61,514.58">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1554.84,545.53">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1640.19,595.26">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1325.90" ytl="455.20" xbr="1681.50" ybr="651.90" z_order="0">
+    </box>
+  </image>
+  <image id="107" name="7585_F3_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1341.62,628.38">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1449.45,628.97">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1540.56,633.88">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1632.86,639.16">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1327.43" ytl="521.09" xbr="1700.00" ybr="717.79" z_order="0">
+    </box>
+  </image>
+  <image id="108" name="7585_F3_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1241.32,838.62">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1353.18,839.19">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1464.70,838.76">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1568.58,827.61">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1226.38" ytl="712.56" xbr="1645.00" ybr="909.26" z_order="0">
+    </box>
+  </image>
+  <image id="109" name="7585_F3_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1124.42,914.05">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1232.48,937.22">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1336.67,953.32">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1424.96,980.12">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1084.68" ytl="842.34" xbr="1503.30" ybr="1039.04" z_order="0">
+    </box>
+  </image>
+  <image id="110" name="7585_F3_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1190.32,856.03">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1266.91,902.53">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1342.66,942.96">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1402.83,986.50">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1169.40" ytl="823.90" xbr="1493.00" ybr="1059.60" z_order="0">
+    </box>
+  </image>
+  <image id="114" name="7585_F4_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1367.89,525.48">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1506.85,514.98">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1638.47,503.25">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1746.59,493.53">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1351.00" ytl="379.03" xbr="1822.50" ybr="614.73" z_order="0">
+    </box>
+  </image>
+  <image id="115" name="7585_F4_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="948.77,649.83">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1080.60,655.51">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1203.85,664.49">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1312.21,683.27">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="931.16" ytl="533.79" xbr="1402.66" ybr="769.49" z_order="0">
+    </box>
+  </image>
+  <image id="116" name="7585_F4_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="892.72,628.86">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1014.64,659.24">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1127.99,691.30">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1225.72,730.28">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="871.40" ytl="541.45" xbr="1336.80" ybr="790.90" z_order="0">
+    </box>
+  </image>
+  <image id="119" name="7623_F2_f000110.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="187.19,581.93">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="142.32,582.24">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="102.80,577.90">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="57.49,568.39">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="16.15" ytl="449.36" xbr="213.06" ybr="698.81" z_order="0">
+    </box>
+  </image>
+  <image id="120" name="7623_F2_f000120.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="206.40,584.15">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="161.54,584.45">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="122.01,580.11">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="76.70,570.61">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="29.63" ytl="456.46" xbr="250.29" ybr="705.90" z_order="0">
+    </box>
+  </image>
+  <image id="121" name="7623_F2_f000140.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="266.62,608.34">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="219.19,592.40">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="172.82,583.79">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="125.80,584.54">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="43.10" ytl="463.55" xbr="287.52" ybr="712.99" z_order="0">
+    </box>
+  </image>
+  <image id="122" name="7623_F2_f000150.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="296.54,605.78">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="249.11,589.83">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="202.75,581.22">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="155.73,581.97">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="106.80" ytl="465.26" xbr="308.04" ybr="714.70" z_order="0">
+    </box>
+  </image>
+  <image id="123" name="7623_F2_f000170.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="350.03,594.46">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="301.71,586.53">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="254.48,582.25">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="206.58,582.62">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="158.10" ytl="467.82" xbr="359.34" ybr="717.27" z_order="0">
+    </box>
+  </image>
+  <image id="124" name="7623_F2_f000180.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="375.24,579.14">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="333.58,576.22">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="284.36,573.90">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="239.58,574.89">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="188.12" ytl="462.71" xbr="389.36" ybr="655.20" z_order="0">
+    </box>
+  </image>
+  <image id="125" name="7623_F2_f000190.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="410.89,552.24">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="360.48,558.59">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="308.95,565.49">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="257.69,570.77">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="218.78" ytl="463.70" xbr="420.02" ybr="636.30" z_order="0">
+    </box>
+  </image>
+  <image id="126" name="7623_F2_f000200.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="449.87,537.91">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="394.87,543.89">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="341.08,550.01">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="288.68,561.39">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="255.86" ytl="451.78" xbr="457.10" ybr="624.38" z_order="0">
+    </box>
+  </image>
+  <image id="127" name="7623_F2_f000210.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="476.88,502.30">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="423.80,517.92">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="371.95,533.47">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="322.39,553.95">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="280.70" ytl="441.29" xbr="481.94" ybr="613.89" z_order="0">
+    </box>
+  </image>
+  <image id="128" name="7623_F2_f000220.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="510.57,499.52">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="459.79,510.46">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="410.15,519.81">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="364.66,539.21">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="319.11" ytl="428.05" xbr="520.35" ybr="600.65" z_order="0">
+    </box>
+  </image>
+  <image id="129" name="7623_F2_f000230.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="544.66,487.76">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="486.79,487.20">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="436.01,493.46">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="387.45,508.01">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="356.05" ytl="404.41" xbr="557.30" ybr="577.00" z_order="0">
+    </box>
+  </image>
+  <image id="130" name="7623_F2_f000240.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="583.58,468.30">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="525.70,467.74">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="474.93,474.01">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="426.37,488.55">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="381.24" ytl="387.24" xbr="595.10" ybr="559.84" z_order="0">
+    </box>
+  </image>
+  <image id="131" name="7623_F2_f000250.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="611.99,458.46">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="553.18,457.98">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="501.58,463.39">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="452.23,475.94">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="412.90" ytl="368.21" xbr="626.77" ybr="540.81" z_order="0">
+    </box>
+  </image>
+  <image id="133" name="7623_F2_f000270.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1252.51" ytl="101.95" xbr="1920.00" ybr="606.56" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1824.82,448.61">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1698.82,341.55">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1501.53,269.59">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="1275.08,257.55">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="668.62,464.75">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="622.03,445.62">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="575.67,438.15">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="524.03,436.05">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="468.48" ytl="345.98" xbr="682.34" ybr="518.58" z_order="0">
+    </box>
+  </image>
+  <image id="134" name="7623_F2_f000280.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1119.18" ytl="87.59" xbr="1908.92" ybr="538.87" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1389.07,267.28">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1722.90,388.48">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="1133.54,257.55">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1569.98,303.09">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="703.35,457.36">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="656.76,438.23">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="610.41,430.76">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="558.76,428.66">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="500.99" ytl="341.55" xbr="714.86" ybr="514.15" z_order="0">
+    </box>
+  </image>
+  <image id="135" name="7623_F2_f000290.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1010.84" ytl="74.76" xbr="1778.50" ybr="500.25" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1026.80,290.54">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1259.82,261.06">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1437.43,275.51">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1611.85,333.60">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="743.17,446.92">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="696.13,437.27">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="651.17,437.51">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="602.05,443.08">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="541.55" ytl="341.55" xbr="755.41" ybr="514.15" z_order="0">
+    </box>
+  </image>
+  <image id="136" name="7623_F2_f000300.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="934.85" ytl="55.74" xbr="1672.97" ybr="506.69" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="963.33,297.49">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1502.09,297.83">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1356.98,251.94">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1189.61,249.03">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="788.67,446.92">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="741.64,437.27">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="696.67,437.51">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="647.56,443.08">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="587.05" ytl="342.54" xbr="800.92" ybr="515.14" z_order="0">
+    </box>
+  </image>
+  <image id="137" name="7623_F2_f000310.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="888.28" ytl="41.71" xbr="1530.10" ybr="456.95" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1116.07,257.76">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1268.75,245.22">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1401.60,250.09">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="903.61,294.97">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="835.35,422.05">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="787.34,422.72">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="743.48,432.61">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="696.71,448.60">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="638.04" ytl="335.89" xbr="851.91" ybr="508.49" z_order="0">
+    </box>
+  </image>
+  <image id="138" name="7623_F2_f000320.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="845.13" ytl="33.43" xbr="1457.50" ybr="472.51" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1189.24,237.74">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1062.56,259.26">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="868.73,317.26">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1307.53,229.35">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="881.39,404.28">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="834.37,409.90">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="790.50,419.79">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="743.73,435.78">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="700.20" ytl="338.45" xbr="897.22" ybr="511.05" z_order="0">
+    </box>
+  </image>
+  <image id="141" name="7623_F2_f000390.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1357.93,504.33">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1033.36,302.90">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="907.85,271.03">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="814.25,263.78">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="766.09" ytl="84.10" xbr="1413.56" ybr="619.83" z_order="0">
+    </box>
+  </image>
+  <image id="142" name="7623_F2_f000400.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1457.81,509.46">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1077.18,330.04">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="916.51,301.68">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="794.02,293.93">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="679.90" ytl="94.80" xbr="1493.20" ybr="603.00" z_order="0">
+    </box>
+  </image>
+  <image id="143" name="7623_F2_f000410.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1541.25,519.85">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1134.28,355.90">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="954.94,327.93">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="822.26,320.77">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="681.90" ytl="94.80" xbr="1588.50" ybr="632.80" z_order="0">
+    </box>
+  </image>
+  <image id="144" name="7623_F2_f000460.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1128.49" ytl="110.36" xbr="1331.28" ybr="252.81" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1323.77,207.37">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1281.34,191.60">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1228.58,186.55">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1182.36,183.95">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1843.23,492.55">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1516.93,447.88">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1204.49,484.62">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="942.26,539.77">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="758.80" ytl="176.10" xbr="1869.80" ybr="788.70" z_order="0">
+    </box>
+  </image>
+  <image id="145" name="7623_F2_f000470.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1323.89,193.55">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1279.63,185.82">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1233.36,180.40">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="1365.82,210.80">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1194.95" ytl="107.61" xbr="1376.94" ybr="255.26" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1876.45,456.95">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1564.40,466.87">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1261.45,510.73">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1013.46,577.74">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="762.50" ytl="157.70" xbr="1913.70" ybr="774.10" z_order="0">
+    </box>
+  </image>
+  <image id="146" name="7623_F2_f000480.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1268.26,185.74">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1314.39,192.45">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1367.12,200.06">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="1412.44,210.10">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1242.74" ytl="107.49" xbr="1421.79" ybr="253.90" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1913.94,426.87">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1601.88,459.46">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1329.84,511.15">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1107.16,590.13">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="762.49" ytl="150.20" xbr="1920.00" ybr="809.90" z_order="0">
+    </box>
+  </image>
+  <image id="150" name="9852_Acanthopagrus_palmaris_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1520.04,770.07">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1622.91,745.85">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1709.17,734.24">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1803.20,724.68">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1502.55" ytl="601.73" xbr="1920.00" ybr="862.60" z_order="0">
+    </box>
+  </image>
+  <image id="151" name="9852_Acanthopagrus_palmaris_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1441.31,772.49">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1550.43,745.71">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1641.93,732.88">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1741.68,722.31">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1421.28" ytl="604.02" xbr="1885.70" ybr="858.90" z_order="0">
+    </box>
+  </image>
+  <image id="152" name="9852_Acanthopagrus_palmaris_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1422.40,766.67">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1531.52,739.89">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1623.02,727.06">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1705.31,714.31">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1401.09" ytl="591.90" xbr="1865.51" ybr="846.78" z_order="0">
+    </box>
+  </image>
+  <image id="155" name="9852_Acanthopagrus_palmaris_f000060.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1221.04,741.43">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1385.99,719.26">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1511.84,709.95">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1630.11,711.29">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1201.18" ytl="567.67" xbr="1803.90" ybr="833.30" z_order="0">
+    </box>
+  </image>
+  <image id="156" name="9852_Acanthopagrus_palmaris_f000070.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1138.16,737.84">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1282.53,722.23">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1392.68,715.68">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1496.20,716.62">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1128.20" ytl="566.61" xbr="1660.10" ybr="832.24" z_order="0">
+    </box>
+  </image>
+  <image id="157" name="9852_Acanthopagrus_palmaris_f000080.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1049.83,745.24">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1175.00,729.64">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1270.51,723.08">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1360.26,724.03">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1043.58" ytl="572.96" xbr="1496.20" ybr="838.59" z_order="0">
+    </box>
+  </image>
+  <image id="159" name="9852_Lutjanus_russellii_EJP_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1284.75,828.45">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1416.75,817.75">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1545.51,811.19">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1658.91,815.81">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1259.00" ytl="664.74" xbr="1805.81" ybr="930.37" z_order="0">
+    </box>
+  </image>
+  <image id="160" name="9852_Lutjanus_russellii_EJP_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1111.49,810.91">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1243.49,800.20">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1372.25,793.65">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1481.99,779.98">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1094.51" ytl="669.12" xbr="1641.32" ybr="934.76" z_order="0">
+    </box>
+  </image>
+  <image id="161" name="9852_Lutjanus_russellii_EJP_f000070.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="210.42,861.83">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="287.99,848.55">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="361.95,836.14">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="426.43,815.77">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="198.10" ytl="749.10" xbr="515.20" ybr="897.83" z_order="0">
+    </box>
+  </image>
+  <image id="162" name="9852_Lutjanus_russellii_EJP_f000080.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="2.43,865.65">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="67.11,861.43">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="136.29,852.36">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="188.38,843.91">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1.07" ytl="770.09" xbr="260.00" ybr="918.82" z_order="0">
+    </box>
+  </image>
+  <image id="163" name="9862_Acanthopagrus_palmaris_f000000.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="256.28,667.45">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="216.47,675.81">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="177.21,688.12">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="146.28,699.82">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="53.29" ytl="580.20" xbr="305.10" ybr="762.18" z_order="0">
+    </box>
+  </image>
+  <image id="167" name="9862_Acanthopagrus_palmaris_f000060.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="705.60,490.74">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="574.59,476.87">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="481.82,478.68">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="407.35,484.85">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="298.45" ytl="322.78" xbr="727.97" ybr="648.80" z_order="0">
+    </box>
+  </image>
+  <image id="168" name="9862_Acanthopagrus_palmaris_f000070.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="931.87,479.61">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="749.46,464.76">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="620.93,476.10">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="514.77,491.10">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="350.67" ytl="301.42" xbr="953.40" ybr="634.60" z_order="0">
+    </box>
+  </image>
+  <image id="169" name="9862_Acanthopagrus_palmaris_f000080.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1153.75,471.60">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="948.95,456.75">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="804.64,468.09">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="687.74,476.22">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="550.00" ytl="258.70" xbr="1185.30" ybr="655.40" z_order="0">
+    </box>
+  </image>
+  <image id="170" name="9862_Acanthopagrus_palmaris_f000090.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1362.27,472.91">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1167.77,445.47">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1010.87,451.09">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="885.97,460.36">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="711.40" ytl="239.71" xbr="1401.40" ybr="652.30" z_order="0">
+    </box>
+  </image>
+  <image id="171" name="9862_Acanthopagrus_palmaris_f000100.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1496.03,459.67">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1317.42,428.26">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1168.47,421.96">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1028.99,432.56">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="851.78" ytl="201.30" xbr="1517.92" ybr="637.70" z_order="0">
+    </box>
+  </image>
+  <image id="172" name="9862_Acanthopagrus_palmaris_f000110.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1650.96,451.72">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1448.54,420.31">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1279.73,414.01">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1121.67,424.61">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1010.79" ytl="168.30" xbr="1686.20" ybr="668.70" z_order="0">
+    </box>
+  </image>
+  <image id="174" name="9866_acanthopagrus_and_caranx_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1174.22,505.31">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1349.61,441.62">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1499.38,407.23">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1655.36,370.23">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1153.20" ytl="194.41" xbr="1840.50" ybr="694.81" z_order="0">
+    </box>
+  </image>
+  <image id="175" name="9866_acanthopagrus_and_caranx_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="974.85,524.30">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1150.24,460.61">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1300.01,426.22">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1455.99,389.22">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="951.46" ytl="244.20" xbr="1638.76" ybr="585.60" z_order="0">
+    </box>
+  </image>
+  <image id="176" name="9866_acanthopagrus_and_caranx_f000090.jpg" width="1920" height="1080">
+    <box label="fish-box" source="manual" occluded="0" xtl="1048.96" ytl="275.45" xbr="1786.48" ybr="656.62" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1074.70,485.80">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1025.49,478.58">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="974.73,474.86">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="924.72,478.76">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="857.94" ytl="362.56" xbr="1084.51" ybr="564.34" z_order="0">
+    </box>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1430.03,481.14">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1257.51,534.66">
+      </points>
+      <points label="Head" source="manual" outside="0" occluded="0" points="1094.05,607.88">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1566.81,450.40">
+      </points>
+    </skeleton>
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="265.22,550.15">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="441.75,485.33">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="591.52,450.93">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="747.50,413.93">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="201.78" ytl="236.00" xbr="889.08" ybr="629.54" z_order="0">
+    </box>
+  </image>
+  <image id="177" name="9866_acanthopagrus_and_caranx_f000140.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="572.53,622.48">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="664.10,586.63">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="741.78,567.61">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="822.69,547.15">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="554.60" ytl="475.30" xbr="889.08" ybr="629.54" z_order="0">
+    </box>
+  </image>
+  <image id="187" name="9866_acanthopagrus_and_caranx_f000260.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="676.64,548.45">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="524.66,546.20">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="401.83,536.55">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="269.59,523.32">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="116.25" ytl="352.14" xbr="685.10" ybr="681.20" z_order="0">
+    </box>
+  </image>
+  <image id="188" name="9866_acanthopagrus_and_caranx_f000270.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="741.43,565.81">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="623.39,573.55">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="517.53,568.91">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="398.17,558.95">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="197.03" ytl="365.38" xbr="765.88" ybr="694.44" z_order="0">
+    </box>
+  </image>
+  <image id="189" name="9866_acanthopagrus_and_caranx_f000280.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="830.13,562.47">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="741.46,569.81">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="639.63,570.55">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="533.99,569.59">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="377.10" ytl="373.30" xbr="853.92" ybr="702.36" z_order="0">
+    </box>
+  </image>
+  <image id="190" name="9866_acanthopagrus_and_caranx_f000290.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="951.80,552.57">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="863.13,559.92">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="761.31,560.66">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="655.67,559.69">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="524.50" ytl="415.80" xbr="980.55" ybr="669.70" z_order="0">
+    </box>
+  </image>
+  <image id="191" name="9866_acanthopagrus_and_caranx_f000300.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1061.94,493.02">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="968.39,478.34">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="892.93,479.87">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="795.21,499.51">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="673.40" ytl="364.39" xbr="1088.69" ybr="618.29" z_order="0">
+    </box>
+  </image>
+  <image id="192" name="9866_acanthopagrus_and_caranx_f000310.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1040.37,470.83">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="970.79,441.49">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="920.98,432.09">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="886.44,451.47">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="788.30" ytl="316.89" xbr="1064.20" ybr="570.79" z_order="0">
+    </box>
+  </image>
+  <image id="201" name="9866_acanthopagrus_and_caranx_f000400.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="420.59,520.96">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="569.01,484.85">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="678.04,457.82">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="756.98,418.64">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="394.45" ytl="247.14" xbr="837.10" ybr="638.50" z_order="0">
+    </box>
+  </image>
+  <image id="208" name="9866_acanthopagrus_palmaris_f000070.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="566.56,522.86">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="459.92,478.11">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="407.96,453.74">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="365.67,442.91">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="281.21" ytl="294.70" xbr="587.90" ybr="692.73" z_order="0">
+    </box>
+  </image>
+  <image id="209" name="9866_acanthopagrus_palmaris_f000090.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="704.30,550.23">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="584.37,536.74">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="443.83,536.77">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="321.95,546.12">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="178.40" ytl="358.70" xbr="737.40" ybr="694.51" z_order="0">
+    </box>
+  </image>
+  <image id="210" name="9866_acanthopagrus_palmaris_f000100.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="771.35,563.36">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="673.50,545.94">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="553.02,545.99">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="448.54,561.49">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="286.90" ytl="400.20" xbr="808.32" ybr="703.37" z_order="0">
+    </box>
+  </image>
+  <image id="211" name="9866_acanthopagrus_palmaris_f000110.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="869.49,563.39">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="775.37,551.83">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="668.02,551.87">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="574.92,566.57">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="447.00" ytl="402.57" xbr="915.12" ybr="705.74" z_order="0">
+    </box>
+  </image>
+  <image id="212" name="9866_acanthopagrus_palmaris_f000120.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="994.61,520.32">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="900.50,508.75">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="801.69,519.05">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="706.03,536.32">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="607.00" ytl="398.47" xbr="1029.99" ybr="646.10" z_order="0">
+    </box>
+  </image>
+  <image id="213" name="9866_acanthopagrus_palmaris_f000130.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1056.93,484.71">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="984.58,470.17">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="897.65,465.63">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="822.76,482.90">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="737.60" ytl="343.07" xbr="1090.33" ybr="590.70" z_order="0">
+    </box>
+  </image>
+  <image id="214" name="9866_acanthopagrus_palmaris_f000140.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1036.48,461.68">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="972.92,436.93">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="939.45,432.96">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="901.45,438.09">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="839.20" ytl="299.10" xbr="1058.30" ybr="555.60" z_order="0">
+    </box>
+  </image>
+  <image id="223" name="9866_acanthopagrus_palmaris_f000230.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="403.99,536.78">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="538.12,515.56">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="657.97,491.95">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="739.19,448.49">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="367.63" ytl="307.11" xbr="798.50" ybr="648.30" z_order="0">
+    </box>
+  </image>
+  <image id="224" name="9866_acanthopagrus_palmaris_f000260.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="623.66,613.47">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="565.59,638.62">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="495.50,657.44">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="435.39,662.39">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="354.20" ytl="495.00" xbr="645.70" ybr="775.48" z_order="0">
+    </box>
+  </image>
+  <image id="225" name="9866_acanthopagrus_palmaris_f000270.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="669.83,592.09">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="611.76,615.53">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="541.67,636.07">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="482.41,659.83">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="400.37" ytl="486.45" xbr="691.87" ybr="766.93" z_order="0">
+    </box>
+  </image>
+  <image id="226" name="9866_acanthopagrus_palmaris_f000280.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="748.49,568.16">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="685.29,571.93">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="615.20,592.46">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="554.23,626.48">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="473.90" ytl="467.64" xbr="765.40" ybr="701.10" z_order="0">
+    </box>
+  </image>
+  <image id="227" name="9866_acanthopagrus_palmaris_f000290.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="831.42,547.64">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="768.22,551.41">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="697.28,561.68">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="613.22,588.86">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="526.90" ytl="459.09" xbr="855.17" ybr="692.55" z_order="0">
+    </box>
+  </image>
+  <image id="228" name="9866_acanthopagrus_palmaris_f000300.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="917.13,548.55">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="854.21,541.51">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="778.28,547.26">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="700.23,566.57">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="612.40" ytl="440.28" xbr="940.67" ybr="673.74" z_order="0">
+    </box>
+  </image>
+  <image id="229" name="9866_acanthopagrus_palmaris_f000310.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="979.94,551.51">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="917.02,544.47">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="841.09,550.21">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="763.04,569.53">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="672.25" ytl="437.33" xbr="1000.52" ybr="670.78" z_order="0">
+    </box>
+  </image>
+  <image id="230" name="9866_acanthopagrus_palmaris_f000380.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1463.88,459.59">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1407.37,443.38">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1340.23,440.94">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1277.39,446.40">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1194.90" ytl="333.13" xbr="1492.38" ybr="566.59" z_order="0">
+    </box>
+  </image>
+  <image id="231" name="9866_acanthopagrus_palmaris_f000390.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1483.15,447.26">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1434.04,430.62">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1395.97,425.54">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1349.18,426.54">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1289.85" ytl="318.29" xbr="1508.21" ybr="551.75" z_order="0">
+    </box>
+  </image>
+  <image id="232" name="9866_acanthopagrus_palmaris_f000400.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1532.74,460.08">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1483.63,437.46">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1445.56,421.27">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1400.48,416.28">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1343.03" ytl="311.20" xbr="1561.39" ybr="544.66" z_order="0">
+    </box>
+  </image>
+  <image id="233" name="9866_acanthopagrus_palmaris_f000410.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1653.91,446.78">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1567.12,428.96">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1505.82,413.76">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1433.21,409.07">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1354.15" ytl="272.73" xbr="1680.20" ybr="549.80" z_order="0">
+    </box>
+  </image>
+  <image id="234" name="9866_acanthopagrus_palmaris_f000420.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1757.71,431.99">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1646.45,408.06">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1555.89,400.58">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1468.79,394.78">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1371.88" ytl="242.59" xbr="1775.90" ybr="519.66" z_order="0">
+    </box>
+  </image>
+  <image id="235" name="9866_acanthopagrus_palmaris_f000430.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1797.77,420.54">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1716.27,395.47">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1634.87,390.28">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1538.61,389.06">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1440.55" ytl="210.54" xbr="1844.57" ybr="547.10" z_order="0">
+    </box>
+  </image>
+  <image id="237" name="9870_Gerres_f000000.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="256.91,495.85">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="209.43,498.25">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="170.27,500.61">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="127.91,507.09">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="91.58" ytl="450.20" xbr="281.50" ybr="549.83" z_order="0">
+    </box>
+  </image>
+  <image id="239" name="9870_Gerres_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="511.59,441.26">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="470.49,436.81">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="436.54,436.64">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="398.50,441.26">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="365.71" ytl="396.90" xbr="533.10" ybr="478.60" z_order="0">
+    </box>
+  </image>
+  <image id="240" name="9870_Gerres_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="656.73,426.83">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="615.62,431.86">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="577.97,428.40">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="530.85,423.53">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="495.67" ytl="380.66" xbr="666.40" ybr="462.36" z_order="0">
+    </box>
+  </image>
+  <image id="241" name="9870_Gerres_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="806.81,426.83">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="762.51,426.11">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="724.86,422.65">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="677.74,417.78">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="642.56" ytl="378.10" xbr="813.29" ybr="459.80" z_order="0">
+    </box>
+  </image>
+  <image id="242" name="9870_Gerres_f000080.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="855.99,423.64">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="813.60,422.28">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="774.04,419.45">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="736.50,412.03">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="698.12" ytl="375.55" xbr="868.85" ybr="457.25" z_order="0">
+    </box>
+  </image>
+  <image id="243" name="9870_Gerres_f000090.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="877.67,432.91">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="836.28,426.11">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="800.86,420.09">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="758.85,411.71">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="700.70" ytl="375.55" xbr="868.85" ybr="457.25" z_order="0">
+    </box>
+  </image>
+  <image id="244" name="9870_Gerres_f000100.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="899.35,442.18">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="858.95,429.94">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="827.68,420.73">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="781.20,411.39">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="739.02" ytl="387.68" xbr="907.17" ybr="469.38" z_order="0">
+    </box>
+  </image>
+  <image id="245" name="9870_Gerres_f000110.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1061.07,465.08">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1013.49,454.44">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="974.50,450.29">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="927.75,447.87">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="899.31" ytl="408.20" xbr="1067.47" ybr="489.89" z_order="0">
+    </box>
+  </image>
+  <image id="246" name="9870_Gerres_f000120.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1200.66,458.54">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1150.95,452.15">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1107.17,449.33">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1058.83,450.11">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1023.50" ytl="407.64" xbr="1209.88" ybr="489.34" z_order="0">
+    </box>
+  </image>
+  <image id="247" name="9870_Gerres_f000130.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1333.14,444.74">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1281.81,440.24">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1236.89,437.19">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1188.54,437.96">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1149.40" ytl="394.40" xbr="1342.90" ybr="476.10" z_order="0">
+    </box>
+  </image>
+  <image id="248" name="9870_Gerres_f000140.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1370.82,438.99">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1319.49,434.49">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1274.57,431.44">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1226.22,432.21">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1181.40" ytl="387.50" xbr="1379.94" ybr="476.10" z_order="0">
+    </box>
+  </image>
+  <image id="249" name="9870_Gerres_f000180.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1370.02,442.52">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1309.47,437.97">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1261.30,431.88">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1216.80,421.90">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1161.40" ytl="364.70" xbr="1403.77" ybr="486.40" z_order="0">
+    </box>
+  </image>
+  <image id="251" name="9892_Acanthopagrus_palmaris_2_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="645.05,298.45">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="739.97,222.24">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="833.95,167.86">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="933.35,130.57">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="600.53" ytl="4.34" xbr="1059.83" ybr="318.65" z_order="0">
+    </box>
+  </image>
+  <image id="252" name="9892_Acanthopagrus_palmaris_2_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="426.99,394.19">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="521.91,317.98">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="615.89,263.59">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="712.63,228.96">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="394.87" ytl="105.40" xbr="854.17" ybr="419.71" z_order="0">
+    </box>
+  </image>
+  <image id="253" name="9892_Acanthopagrus_palmaris_2_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="272.98,423.57">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="364.73,361.33">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="455.56,316.92">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="549.07,288.63">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="249.46" ytl="156.84" xbr="656.30" ybr="471.15" z_order="0">
+    </box>
+  </image>
+  <image id="254" name="9892_Acanthopagrus_palmaris_2_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="263.47,422.58">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="334.25,360.33">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="404.33,315.90">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="476.47,287.61">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="244.51" ytl="179.60" xbr="584.10" ybr="456.31" z_order="0">
+    </box>
+  </image>
+  <image id="255" name="9892_Caranx_f000000.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="651.46,378.04">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="725.83,288.07">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="819.39,214.72">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="938.60,151.05">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="600.75" ytl="0.82" xbr="1140.28" ybr="404.70" z_order="0">
+    </box>
+  </image>
+  <image id="256" name="9892_Caranx_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="479.30,458.76">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="564.15,386.56">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="658.28,329.95">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="771.96,283.19">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="456.20" ytl="111.59" xbr="955.66" ybr="497.20" z_order="0">
+    </box>
+  </image>
+  <image id="259" name="9892_acanthopagrus_palmaris_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="673.14,298.12">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="597.94,268.25">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="528.36,223.03">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="457.08,157.27">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="366.70" ytl="11.96" xbr="695.40" ybr="388.40" z_order="0">
+    </box>
+  </image>
+  <image id="260" name="9892_acanthopagrus_palmaris_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="606.76,310.71">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="536.13,243.07">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="502.04,210.44">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="447.92,196.19">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="372.80" ytl="32.71" xbr="653.20" ybr="409.15" z_order="0">
+    </box>
+  </image>
+  <image id="262" name="9892_acanthopagrus_palmaris_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="487.21,407.01">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="540.18,308.79">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="582.36,263.55">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="639.03,219.05">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="418.35" ytl="74.20" xbr="747.05" ybr="450.64" z_order="0">
+    </box>
+  </image>
+  <image id="263" name="9892_acanthopagrus_palmaris_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="317.99,431.58">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="459.44,341.12">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="570.69,283.20">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="681.08,263.42">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="268.19" ytl="98.72" xbr="759.30" ybr="475.16" z_order="0">
+    </box>
+  </image>
+  <image id="264" name="9892_acanthopagrus_palmaris_f000060.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="184.12,491.04">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="337.21,396.18">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="487.73,340.47">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="620.37,320.40">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="155.00" ytl="154.60" xbr="744.00" ybr="531.85" z_order="0">
+    </box>
+  </image>
+  <image id="266" name="9894_Amniataba_caudivittatus_f000000.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="918.65,552.87">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="790.55,535.46">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="657.94,527.32">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="520.56,527.23">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="362.43" ytl="337.21" xbr="951.43" ybr="714.46" z_order="0">
+    </box>
+  </image>
+  <image id="267" name="9894_Amniataba_caudivittatus_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1065.80,489.05">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="954.80,486.17">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="838.44,489.15">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="728.41,505.30">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="637.20" ytl="372.70" xbr="1096.80" ybr="625.80" z_order="0">
+    </box>
+  </image>
+  <image id="268" name="9894_Amniataba_caudivittatus_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1282.85,497.62">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1174.33,466.51">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1051.72,458.56">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="920.26,463.50">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="812.70" ytl="351.43" xbr="1304.23" ybr="604.53" z_order="0">
+    </box>
+  </image>
+  <image id="269" name="9894_Amniataba_caudivittatus_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1526.44,501.82">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1423.35,473.32">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1310.87,461.86">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1186.26,463.56">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1053.73" ytl="347.45" xbr="1545.26" ybr="600.55" z_order="0">
+    </box>
+  </image>
+  <image id="270" name="9894_gerres_2_f000000.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="522.81,795.01">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="456.02,792.42">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="388.55,787.01">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="314.88,785.90">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="235.49" ytl="713.67" xbr="558.50" ybr="850.30" z_order="0">
+    </box>
+  </image>
+  <image id="271" name="9894_gerres_2_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="640.48,793.39">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="571.13,783.78">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="505.58,782.20">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="432.54,784.28">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="336.73" ytl="713.67" xbr="659.74" ybr="850.30" z_order="0">
+    </box>
+  </image>
+  <image id="272" name="9894_gerres_2_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1293.78,943.26">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1203.07,934.53">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1122.15,932.68">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1030.07,933.85">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="925.30" ytl="855.37" xbr="1311.30" ybr="992.00" z_order="0">
+    </box>
+  </image>
+  <image id="273" name="9894_gerres_2_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1541.09,957.11">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1450.38,948.38">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1369.46,946.53">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1283.11,954.85">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1137.60" ytl="873.17" xbr="1550.70" ybr="1020.70" z_order="0">
+    </box>
+  </image>
+  <image id="275" name="9894_gerres_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1103.19,995.63">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1208.43,997.90">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1296.24,988.42">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1388.60,966.03">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1059.45" ytl="850.42" xbr="1512.10" ybr="1051.41" z_order="0">
+    </box>
+  </image>
+  <image id="276" name="9894_gerres_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="872.39,1004.22">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="990.94,1014.10">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1094.05,1011.32">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1196.92,992.24">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="852.86" ytl="866.31" xbr="1316.10" ybr="1067.30" z_order="0">
+    </box>
+  </image>
+  <image id="277" name="9894_gerres_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="660.61,963.41">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="766.36,983.50">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="855.77,999.84">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="943.04,1017.25">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="635.67" ytl="878.23" xbr="1098.91" ybr="1079.22" z_order="0">
+    </box>
+  </image>
+  <image id="278" name="9894_lutjanus_johnii_f000000.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="942.54,255.11">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="682.76,187.10">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="444.27,143.93">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="210.57,120.29">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="0.00" ytl="0.46" xbr="969.40" ybr="378.20" z_order="0">
+    </box>
+  </image>
+  <image id="279" name="9894_lutjanus_johnii_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1370.86,340.96">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1089.91,235.89">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="831.98,169.21">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="579.23,132.70">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="390.03" ytl="0.00" xbr="1404.00" ybr="448.80" z_order="0">
+    </box>
+  </image>
+  <image id="280" name="9894_lutjanus_johnii_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1901.77,345.30">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1578.98,277.50">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1282.66,234.47">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="992.28,210.91">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="756.04" ytl="0.00" xbr="1920.00" ybr="501.10" z_order="0">
+    </box>
+  </image>
+  <image id="283" name="9898_Acanthopagrus_palmaris_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="815.91,213.43">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="761.59,169.44">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="719.00,149.38">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="677.26,138.40">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="605.30" ytl="28.70" xbr="897.50" ybr="269.80" z_order="0">
+    </box>
+  </image>
+  <image id="284" name="9898_Acanthopagrus_palmaris_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="943.70,251.04">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="861.12,208.38">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="757.95,173.26">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="649.67,156.34">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="575.60" ytl="28.70" xbr="960.90" ybr="333.20" z_order="0">
+    </box>
+  </image>
+  <image id="285" name="9898_Acanthopagrus_palmaris_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1060.70,312.98">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="978.12,270.32">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="874.95,235.20">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="778.14,212.54">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="658.20" ytl="87.20" xbr="1076.75" ybr="391.70" z_order="0">
+    </box>
+  </image>
+  <image id="286" name="9898_Acanthopagrus_palmaris_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1160.49,389.83">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1096.26,352.90">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1014.89,317.79">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="932.99,298.57">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="856.60" ytl="153.70" xbr="1206.36" ybr="446.76" z_order="0">
+    </box>
+  </image>
+  <image id="287" name="9898_Acanthopagrus_palmaris_f000060.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1266.01,449.47">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1201.79,412.55">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1120.42,377.44">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1033.54,360.43">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="944.92" ytl="215.64" xbr="1294.69" ybr="508.70" z_order="0">
+    </box>
+  </image>
+  <image id="288" name="9898_Acanthopagrus_palmaris_f000070.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1387.24,502.38">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1320.20,470.01">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1235.26,439.23">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1144.58,424.33">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1059.06" ytl="275.36" xbr="1408.82" ybr="568.42" z_order="0">
+    </box>
+  </image>
+  <image id="289" name="9898_Acanthopagrus_palmaris_f000080.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1521.48,570.28">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1450.66,538.27">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1360.93,507.83">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1265.13,493.08">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1134.70" ytl="363.00" xbr="1546.84" ybr="640.08" z_order="0">
+    </box>
+  </image>
+  <image id="290" name="9898_Acanthopagrus_palmaris_f000090.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1638.71,630.41">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1560.48,589.92">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1461.37,551.43">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1355.54,532.78">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1264.31" ytl="407.73" xbr="1676.46" ybr="684.82" z_order="0">
+    </box>
+  </image>
+  <image id="291" name="9908_Acanthopagrus_palmaris_f000010.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="560.70,467.78">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="421.17,432.42">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="248.85,406.94">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="72.72,413.62">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="3.72" ytl="262.65" xbr="594.30" ybr="573.50" z_order="0">
+    </box>
+  </image>
+  <image id="292" name="9908_Acanthopagrus_palmaris_f000020.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="861.67,496.19">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="729.15,447.82">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="565.48,412.96">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="398.20,422.11">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="212.90" ytl="273.30" xbr="899.77" ybr="626.60" z_order="0">
+    </box>
+  </image>
+  <image id="293" name="9908_Acanthopagrus_palmaris_f000030.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1134.56,499.79">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1009.06,447.22">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="854.06,409.34">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="695.64,419.27">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="504.61" ytl="234.40" xbr="1191.48" ybr="568.90" z_order="0">
+    </box>
+  </image>
+  <image id="294" name="9908_Acanthopagrus_palmaris_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1452.51,470.82">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1304.20,416.84">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1121.04,377.94">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="933.83,388.14">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="780.00" ytl="172.22" xbr="1521.90" ybr="618.60" z_order="0">
+    </box>
+  </image>
+  <image id="295" name="9908_Acanthopagrus_palmaris_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1701.36,370.46">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1514.37,323.71">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1283.45,290.02">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1047.42,298.86">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="836.85" ytl="28.30" xbr="1729.80" ybr="551.10" z_order="0">
+    </box>
+  </image>
+  <image id="296" name="9908_Acanthopagrus_palmaris_f000060.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1828.39,299.55">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1637.54,240.84">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1401.83,198.52">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1160.91,209.62">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="934.89" ytl="0.00" xbr="1864.80" ybr="512.74" z_order="0">
+    </box>
+  </image>
+  <image id="301" name="9908_Epinephelus_f000040.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="735.62,674.12">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="536.41,687.70">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="302.73,751.08">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="80.25,829.36">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="4.11" ytl="538.59" xbr="752.71" ybr="969.13" z_order="0">
+    </box>
+  </image>
+  <image id="302" name="9908_Epinephelus_f000050.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="842.84,664.72">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="643.62,678.30">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="414.53,727.92">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="196.64,799.31">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="8.55" ytl="540.07" xbr="877.74" ybr="932.38" z_order="0">
+    </box>
+  </image>
+  <image id="303" name="9908_Epinephelus_f000120.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1477.16,463.58">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1365.18,474.71">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1236.41,515.40">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1113.93,573.94">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="869.56" ytl="347.41" xbr="1512.80" ybr="699.60" z_order="0">
+    </box>
+  </image>
+  <image id="304" name="9908_Epinephelus_f000130.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1566.77,460.92">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1446.64,459.47">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1317.87,500.15">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1205.02,552.77">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1079.93" ytl="364.30" xbr="1594.21" ybr="664.32" z_order="0">
+    </box>
+  </image>
+  <image id="305" name="9908_Epinephelus_f000140.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1627.70,428.56">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1516.13,427.33">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1396.53,461.72">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1291.72,506.19">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1111.50" ytl="351.97" xbr="1736.70" ybr="651.99" z_order="0">
+    </box>
+  </image>
+  <image id="306" name="9908_Epinephelus_f000150.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1697.16,412.57">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1580.19,427.33">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1447.43,445.73">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1334.21,490.20">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1156.00" ytl="327.09" xbr="1777.90" ybr="627.11" z_order="0">
+    </box>
+  </image>
+  <image id="307" name="9908_Epinephelus_f000160.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1852.94,436.66">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1674.10,422.85">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1529.06,442.65">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1405.35,490.49">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1242.98" ytl="309.33" xbr="1890.30" ybr="609.35" z_order="0">
+    </box>
+  </image>
+  <image id="308" name="9908_Epinephelus_f000170.jpg" width="1920" height="1080">
+    <skeleton label="fish-curve" source="manual" z_order="0">
+      <points label="Head" source="manual" outside="0" occluded="0" points="1914.63,421.23">
+      </points>
+      <points label="Mid1" source="manual" outside="0" occluded="0" points="1735.79,407.43">
+      </points>
+      <points label="Mid2" source="manual" outside="0" occluded="0" points="1590.75,427.22">
+      </points>
+      <points label="Tail" source="manual" outside="0" occluded="0" points="1467.04,475.06">
+      </points>
+    </skeleton>
+    <box label="fish-box" source="manual" occluded="0" xtl="1273.82" ytl="308.47" xbr="1920.00" ybr="608.49" z_order="0">
+    </box>
+  </image>
+</annotations>
